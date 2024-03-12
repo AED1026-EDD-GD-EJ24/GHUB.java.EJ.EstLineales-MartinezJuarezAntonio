@@ -41,5 +41,12 @@ public class Pila <T> {
             tamanio--;
         }
     }
-    
+    //devuelve el elemento almacenado en el tope de la pila
+    public T cima(){
+        if (!esVacia()) {
+            return cabeza.getValor();
+        }else{
+            return null;
+        }
+    }
 }
