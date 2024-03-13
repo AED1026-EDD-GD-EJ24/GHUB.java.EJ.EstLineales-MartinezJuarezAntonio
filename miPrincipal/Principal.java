@@ -23,6 +23,7 @@ public class Principal {
                     break;
             
                 default:
+                System.out.println("Opcion no encontrada");
                     break;
             }
         } while (opc != 0);
