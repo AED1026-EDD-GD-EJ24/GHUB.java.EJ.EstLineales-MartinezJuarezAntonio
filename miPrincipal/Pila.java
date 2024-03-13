@@ -37,7 +37,7 @@ public class Pila <T> {
     //eliminar un elemento de la pila
     public void retirar(){
         if (!esVacia()) {
-            cabeza = cabeza.getSisguiente();
+            cabeza = cabeza.getSiguiente();
             tamanio--;
         }
     }

@@ -2,28 +2,28 @@ package miPrincipal;
 public class Nodo<T>{
     //Atributo valor de tipo T almacena la referencia al objeto 
     //que se guarda en el nodo
-    private t valor;
+    private T valor;
     //Referencia al siguiente nodo enlazado
-    private Nodo<t> siguiente;
+    private Nodo<T> siguiente;
     //constructor por defecto
     public Nodo(){
         valor = null;
         siguiente = null;
     }
     //devuelve el valor
-    public t getValor(){
+    public T getValor(){
         return valor;
     }
     //modifica el valor
-    public void setValor(t valor){
+    public void setValor(T valor){
         this.valor = valor;
     }
     //Devuelve el atributo siguiente
-    public Nodo<t> getSisguiente(){
+    public Nodo<T> getSiguiente(){
         return siguiente;
     }
     //modifica el atributo siguiente
-    public void setSiguiente(Nodo <t> siguiente){
+    public void setSiguiente(Nodo <T> siguiente){
         this.siguiente = siguiente;
     }
 }

@@ -1,7 +1,7 @@
 package miPrincipal;
-public class ClienteMain {
+public class DemoPila {
 
-    public static void main(String[] args) {
+    public static void menu(String[] args) {
         //crear una nueva pila de enteros
         Pila<Integer> pila = new Pila<Integer>();
         //apila algunos datos enteros
@@ -15,6 +15,5 @@ public class ClienteMain {
         //se desapila
         pila.retirar();
         System.out.println("El tope de la pila es "+pila.cima());
-
     }
 }
