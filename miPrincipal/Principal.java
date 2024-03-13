@@ -16,7 +16,7 @@ public class Principal {
             opc = entrada.nextInt();
             switch (opc) {
                 case 1:
-                    DemoPila.menu(args);
+                    DemoPila.menu();
                     break;
                 case 2:
                     DemoStack.menu();

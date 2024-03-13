@@ -1,7 +1,7 @@
 package miPrincipal;
 public class DemoPila {
 
-    public static void menu(String[] args) {
+    public static void menu() {
         //crear una nueva pila de enteros
         Pila<Integer> pila = new Pila<Integer>();
         //apila algunos datos enteros
