@@ -10,6 +10,8 @@ public class Principal {
             System.out.println("");
             System.out.println("1): Pila");
             System.out.println("2): Stack");
+            System.out.println("3): Delimitadores");
+            System.out.println("4): Exprecion infija");
 
             System.out.println("0): Salir");
             System.out.println("Seleccione una opcion");
@@ -23,6 +25,12 @@ public class Principal {
                     break;
                 case 3:
                 DemoDelimitadores.menu();
+                    break;
+                case 4:
+                    //tarea
+                    break;
+                case 5:
+                
                     break;
             
                 default:
