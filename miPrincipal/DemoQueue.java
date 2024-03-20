@@ -6,6 +6,16 @@ public class DemoQueue {
      * java.util.Queue, como es una interface se requiere instanciar
      * como un objeto en concreto, esta interface se puede implemetar
      * con la API collection de Java:
+     *  java.util.LinkedList
+     *  java.util.PriorityQueue
+     * LinkedList es una aplicación de cola estándar
+     * PriorityQueue es una cola de prioridades que almacena
+     * sus elementos internos de acuerdo a un orden.
+     * Las operaciones básica de Queue son:
+     * add(). inserta un elemento en la cola
+     * remove(). devuelve y remueve el primer elemento de la cola
+     * peek(). devuelve el primer elmentos de la cola  y devuelve
+     * null cuando la cola esta vacía
      */
     public static void menu() {
         System.out.println("************");
