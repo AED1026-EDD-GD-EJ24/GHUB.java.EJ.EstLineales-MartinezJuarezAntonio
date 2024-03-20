@@ -1,4 +1,3 @@
-package miPrincipal;
 
 public class DemoCola {
     public static void menu() {

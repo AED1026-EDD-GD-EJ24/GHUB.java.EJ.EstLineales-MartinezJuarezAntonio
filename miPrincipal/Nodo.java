@@ -1,4 +1,3 @@
-package miPrincipal;
 public class Nodo<T>{
     //Atributo valor de tipo T almacena la referencia al objeto 
     //que se guarda en el nodo

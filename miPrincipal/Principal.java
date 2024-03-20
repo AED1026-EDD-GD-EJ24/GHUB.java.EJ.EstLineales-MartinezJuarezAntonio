@@ -1,4 +1,3 @@
-package miPrincipal;
 import java.util.*;
 public class Principal {
     public static void main(String[] args) {
@@ -12,6 +11,8 @@ public class Principal {
             System.out.println("2): Stack");
             System.out.println("3): Delimitadores");
             System.out.println("4): Exprecion infija");
+            System.out.println("5): ");
+            System.out.println("6): Queue");
 
             System.out.println("0): Salir");
             System.out.println("Seleccione una opcion");
@@ -31,6 +32,9 @@ public class Principal {
                     break;
                 case 5:
                 
+                    break;
+                case 6:
+                DemoQueue.menu();
                     break;
             
                 default:

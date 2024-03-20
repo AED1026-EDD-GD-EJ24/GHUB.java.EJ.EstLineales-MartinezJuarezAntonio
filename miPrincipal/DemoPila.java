@@ -1,4 +1,3 @@
-package miPrincipal;
 public class DemoPila {
 
     public static void menu() {

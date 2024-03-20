@@ -1,4 +1,3 @@
-package miPrincipal;
 
 import javax.swing.JOptionPane;
 
