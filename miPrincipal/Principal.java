@@ -13,6 +13,7 @@ public class Principal {
             System.out.println("4): Exprecion infija");
             System.out.println("5): ");
             System.out.println("6): Queue");
+            System.out.println("7): Tabla de dispercion");
 
             System.out.println("0): Salir");
             System.out.println("Seleccione una opcion");
@@ -25,18 +26,23 @@ public class Principal {
                     DemoStack.menu();
                     break;
                 case 3:
-                DemoDelimitadores.menu();
+                    DemoDelimitadores.menu();
                     break;
                 case 4:
                     //tarea
                     break;
                 case 5:
-                
+                    DemoCola.menu();
                     break;
                 case 6:
-                DemoQueue.menu();
+                    DemoQueue.menu();
                     break;
-            
+                case 7:
+                    DemoTablaDispercion.menu();
+                    break;
+                case 8:
+                
+                    break;
                 default:
                 System.out.println("Opcion no encontrada");
                     break;
