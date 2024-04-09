@@ -12,7 +12,7 @@ public class DemoTablaDispercion {
         Persona p2 = new Persona ("Juan",25,"Mexicano");
         Persona p3 = new Persona ("Pedro",18,"Español");
         //creo la tabla hash
-        Hashtable<String.Persona>tabla = new Hashtable<String.Persona>();
+        Hashtable<String,Persona>tabla = new Hashtable<String,Persona>();
         //agregamos a las personas tomando su nombre como clave
         tabla.put(p1.getNombre(),p1);
         tabla.put(p2.getNombre(),p2);
