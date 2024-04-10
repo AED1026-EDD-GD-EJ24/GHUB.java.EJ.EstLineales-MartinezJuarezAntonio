@@ -14,7 +14,8 @@ public class Principal {
             System.out.println("5): ");
             System.out.println("6): Queue");
             System.out.println("7): Tabla de dispercion");
-
+            System.out.println("");
+            System.out.println("9): Listas");
             System.out.println("0): Salir");
             System.out.println("Seleccione una opcion");
             opc = entrada.nextInt();
