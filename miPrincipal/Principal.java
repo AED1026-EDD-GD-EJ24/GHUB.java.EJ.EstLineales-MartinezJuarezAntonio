@@ -16,6 +16,8 @@ public class Principal {
             System.out.println("7): Tabla de dispercion");
             System.out.println("");
             System.out.println("9): Listas");
+            System.out.println("10): ArrayList y LinkedList");
+            System.out.println("ArrayList de personas");
             System.out.println("0): Salir");
             System.out.println("Seleccione una opcion");
             opc = entrada.nextInt();
@@ -46,6 +48,12 @@ public class Principal {
                     break;
                 case 9:
                 
+                    break;
+                case 10:
+                    
+                    break;
+                case 11:
+                DemoArrayListDePersonas.menu();
                     break;
                 default:
                 System.out.println("Opcion no encontrada");
