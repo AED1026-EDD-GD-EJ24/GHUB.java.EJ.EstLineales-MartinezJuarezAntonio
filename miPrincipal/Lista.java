@@ -117,6 +117,5 @@ public class Lista<T> {
     public void limpiar(){
         Cabeza=null;
         tamanio=0;
-
     }
 }

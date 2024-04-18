@@ -14,10 +14,12 @@ public class Principal {
             System.out.println("5): ");
             System.out.println("6): Queue");
             System.out.println("7): Tabla de dispercion");
-            System.out.println("");
+            System.out.println("8): Estructuras convinadas");
             System.out.println("9): Listas");
             System.out.println("10): ArrayList y LinkedList");
-            System.out.println("ArrayList de personas");
+            System.out.println("11): ArrayList de personas");
+            System.out.println("12): LinkedList de cuadrupedos");
+
             System.out.println("0): Salir");
             System.out.println("Seleccione una opcion");
             opc = entrada.nextInt();
