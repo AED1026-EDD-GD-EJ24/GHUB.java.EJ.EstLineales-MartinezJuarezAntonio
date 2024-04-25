@@ -4,10 +4,12 @@ public class Nodo<T>{
     private T valor;
     //Referencia al siguiente nodo enlazado
     private Nodo<T> siguiente;
+    private Nodo<T> anterior;
     //constructor por defecto
     public Nodo(){
         valor = null;
         siguiente = null;
+        
     }
     //devuelve el valor
     public T getValor(){
@@ -24,5 +26,11 @@ public class Nodo<T>{
     //modifica el atributo siguiente
     public void setSiguiente(Nodo <T> siguiente){
         this.siguiente = siguiente;
+    }
+    public Nodo<T> getAnterior() {
+        return anterior;
+    }
+    public void setAnterior(Nodo<T> anterior) {
+        this.anterior = anterior;
     }
 }
